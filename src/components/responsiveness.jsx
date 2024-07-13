@@ -1,15 +1,28 @@
+import { useState } from "react"
+
 export const Responsiveness = () => {
+    const [responsive, setResponsive]  = useState(false);
     return <div>
         <div className="feedback-item">
             <h2>Responsiveness</h2>
-            <p>Ho would you rate our responsiveness in dealing with your enquiry</p>
+            <div className="inputs">
+            <div className="satisfaction">
+                <label>Satisfaction : </label>
+            <select>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Fair</option>
+                <option>Poor</option>
+            </select>
+            </div>
+            <div className="remarks">
 
-            <option value="option"></option>
-            <option value="option"></option>
-       
-            <textarea>
+            <textarea rows="4" cols="50" placeholder="Enter remarks if Any...">
 
             </textarea>
+            </div>
+       
+            </div>
 
         </div>
     </div>

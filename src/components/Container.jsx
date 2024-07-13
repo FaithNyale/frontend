@@ -8,9 +8,5 @@ export const Container = () => {
     const [reponse, seResponse] = useState(false)
     return <div className="container">
         <Responsiveness/>
-        <Professionalism/>
-        <ServiceQuality/>
-        <Satisfaction/>
-        <CommentAndSuggestions/>
     </div>
 }

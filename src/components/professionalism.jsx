@@ -2,8 +2,7 @@ export const Professionalism = () => {
     return <div>
         <div className="feedback-item">
             <h2>Professionalism</h2>
-            <p>Ho would you rate our Professionalism in dealing with your enquiry</p>
-
+            
             <option value="option"></option>
             <option value="option"></option>
        
