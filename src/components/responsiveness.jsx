@@ -21,6 +21,9 @@ export const Responsiveness = () => {
 
             </textarea>
             </div>
+            <div className="submit">
+                <button type="submit">Submit</button>
+            </div>
        
             </div>
 

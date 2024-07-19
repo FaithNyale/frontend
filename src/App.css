@@ -40,7 +40,7 @@
 .navbar{
   display: flex;
   justify-content: space-between;
-  background-color: rgb(48, 93, 48);
+  background-color:  #95cb48;
 }
 .navbar img {
   height: 60px;
@@ -55,6 +55,10 @@
   padding: 10px;
   color: white;
 }
+.links a {
+  color: whitesmoke;
+  text-decoration: none;
+}
 .links div {
   margin-right: 15px;
 }
@@ -66,7 +70,6 @@
 }
 .container{
   flex: 3;
-  background-color: azure;
 }
 
 .left-bar{
@@ -86,7 +89,7 @@
 }
 
 .feedback-item {
-  background-color: aquamarine;
+  background-color: #95cb48;
   border-radius: 10px;
   width: 80%;
 }
@@ -99,3 +102,67 @@
   justify-content: center;
   gap: 20px;
 }
+
+.logo{
+  padding-left: 20px;
+}
+
+.home {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../src/image/jkuatgate.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+}
+.started{
+  position: absolute;
+  bottom: 100px;
+  left: auto;
+  background-color: aliceblue;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px;
+  padding-top: -10px;
+}
+
+.started p {
+  color: black;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+}
+.started a {
+  text-decoration: none;
+color: black;
+}
+
+.submit{
+  margin-bottom: 20px;
+}
+.form{
+  background-color:  #95cb48;
+  width: 50%;
+  margin: auto;
+  border-radius: 20px;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+  
+  .complaint-form {
+    align-content: center;
+  }
+  .submit{
+    margin-bottom: 20px;
+  }
